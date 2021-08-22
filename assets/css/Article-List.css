@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+.article-list {
+  color: #313437;
+  background-color: #fff;
+}
+
+.article-list p {
+  color: #7d8285;
+}
+
+.article-list h2 {
+  font-weight: bold;
+  margin-top: 8vh;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4.5vh;
+  color: #32353C;
+}
+
+@media (max-width:767px) {
+  .article-list h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.article-list .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.article-list .intro p {
+  margin-bottom: 0;
+}
+
+.article-list .articles {
+  padding-bottom: 40px;
+}
+
+.article-list .item {
+  padding-top: 50px;
+  min-height: 425px;
+  text-align: center;
+}
+
+.article-list .item .name {
+  font-size: 22px;
+  margin-top: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  color: #32353C;
+}
+
+.article-list .item .description {
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  color: #32353C;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.article-list .item .action {
+  font-size: 24px;
+  width: 24px;
+  margin: 22px auto 0;
+  line-height: 1;
+  display: block;
+  color: #CEB69C;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+  text-decoration: none;
+}
+
+.article-list .item .action:hover {
+  opacity: 1;
+}
+

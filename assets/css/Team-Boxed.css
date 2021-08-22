@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+.team-boxed {
+  color: #313437;
+  background-color: rgb(206, 182, 156, 0.48);
+}
+
+.team-boxed p {
+  color: #7d8285;
+}
+
+.team-boxed h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .team-boxed h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.team-boxed .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.team-boxed .intro p {
+  margin-bottom: 0;
+}
+
+.team-boxed .people {
+  padding: 50px 0;
+}
+
+.team-boxed .item {
+  text-align: center;
+}
+
+.team-boxed .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.team-boxed .item .name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3vh;
+  color: #32353C;
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
+.team-boxed .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d0d0d0;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.team-boxed .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+ .team-boxed .item img {
+  border-radius: 5px;
+} 
+
+.team-boxed .social {
+  font-size: 18px;
+  color: #a2a8ae;
+}
+
+.team-boxed .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity: 1;
+}
+
+.btn-buy {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  background: #CEB69C;
+  margin-top: 20px;
+  width: 100px;
+}
