@@ -6,14 +6,21 @@
 }
 
 .team-boxed p {
-  color: #7d8285;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  color: #7D7D7D;
 }
 
 .team-boxed h2 {
   font-weight: bold;
   margin-bottom: 40px;
   padding-top: 40px;
-  color: inherit;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4.5vh;
+  color: #32353C;
 }
 
 @media (max-width:767px) {
@@ -45,7 +52,7 @@
 .team-boxed .item .box {
   text-align: center;
   padding: 30px;
-  background-color: #fff;
+  background-color: #F5F7F9;
   margin-bottom: 30px;
   border-radius: 10px;
 }
@@ -104,3 +111,4 @@
   margin-top: 20px;
   width: 100px;
 }
+

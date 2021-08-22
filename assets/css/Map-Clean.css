@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+
 .map-clean {
   color: #313437;
-  background-color: #fff;
 }
 
 .map-clean p {
@@ -11,7 +12,11 @@
   font-weight: bold;
   margin-bottom: 40px;
   padding-top: 40px;
-  color: inherit;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.5vh;
+  color: #32353C;
 }
 
 @media (max-width:767px) {

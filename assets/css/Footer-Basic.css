@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+
 .footer-basic {
   padding: 40px 0;
   background-color: #32353C;
@@ -39,10 +41,10 @@
   line-height: 40px;
   display: inline-block;
   text-align: center;
-  border-radius: 50%;
-  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgb(254,254,254,0.2);
   margin: 0 8px;
-  color: inherit;
+  color: #32353C;
   opacity: 0.75;
 }
 
@@ -51,10 +53,14 @@
 }
 
 .footer-basic .copyright {
-  margin-top: 15px;
+  margin-top: 30px;
   text-align: center;
-  font-size: 13px;
   color: #aaa;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFFFFF;
 }
 

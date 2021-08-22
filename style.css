@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
 
+
+.body {
+    background: #F5F7F9;
+}
+
+
 .home {
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -7,6 +13,10 @@
 
 .navbar {
     background: transparent;
+}
+
+.nav-text:hover {
+    color: #32353C;
 }
 
 .logonav {
@@ -76,6 +86,153 @@
     color: #32353C;
 }
 
+.logo-footer {
+    margin-bottom: 40px;
+}
+
+
+/* Location.html */
+
+.footer-location {
+    bottom: 0;
+    margin-top: 15vh;
+}
+
+.nav-notindex {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #32353C;
+}
+
+.navbar-notindex {
+    background: #FFFFFF !important;
+}
+
+.map-container {
+    margin-top: 4vh;
+}
+
+/* product.html */
+
+.team-boxed-product {
+  color: #313437;
+  background-color: transparent;
+}
+
+.team-boxed-product p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  color: #7D7D7D;
+}
+
+.team-boxed-product h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4.5vh;
+  color: #32353C;
+}
+
+@media (max-width:767px) {
+  .team-boxed-product h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.team-boxed-product .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.team-boxed-product .intro p {
+  margin-bottom: 0;
+}
+
+.team-boxed-product .people {
+  padding: 50px 0;
+}
+
+.team-boxed-product .item {
+  text-align: center;
+}
+
+.team-boxed-product .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.team-boxed-product .item .name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3vh;
+  color: #32353C;
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
+.team-boxed-product .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d0d0d0;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.team-boxed-product .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+ .team-boxed-product .item img {
+  border-radius: 5px;
+} 
+
+.team-boxed-product .social {
+  font-size: 18px;
+  color: #a2a8ae;
+}
+
+.team-boxed-product .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-boxed-product .social a:hover {
+  opacity: 1;
+}
+
+.btn-buy {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  background: #CEB69C;
+  margin-top: 20px;
+  width: 100px;
+}
+
+
+
+
+/* mobile */
+
 @media (max-width:767px) {
     .logonav {
         height: auto;
@@ -86,7 +243,7 @@
     }
     
     .header{
-        background: #FFF;
+        background: #F5F7F9;
         height: 100vh;
     }
     .kasepuhan {
