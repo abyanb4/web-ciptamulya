@@ -1,2 +1,2 @@
 # web-ciptamulya
-Kasepuhan Ciptamulya website repository. Build with love KKN Sirnaresmi 2021
+Kasepuhan Ciptamulya website repository. Build with joy by KKN Sirnaresmi 2021
